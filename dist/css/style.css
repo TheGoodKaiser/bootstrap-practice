@@ -63,8 +63,58 @@ header {
 	padding-top: 30px;
 }
 .sec-head {
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
+}
+img {
+	width: 150px;
+	height: 250px;
+}
+.hustle {
+	font-size: 20px;
+	text-align: left;
+	margin-top: 40px;
+	font-weight: 500;
+	margin-right: 0px;
+}
+.col-sm-3 {
+	width: 150px;
+	margin: 10px;
+}
+
+#img1, #img2, #img3, #img4 {
+	padding: 0px;
+	width: 150px;
+	margin: 15px;
+}
+.welcome {
+	font-size: 25px;
+	font-weight: 500;
+}
+#kanye {
+	background-image: url(http://www.kicksculture.com/wp-content/uploads/2013/11/kanye-moving-gif-lol.gif);
+	width: 600px;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-bottom: 20px;
+}
+.foot div {
+	width: 100%;
+}
+.foot {
+	background-color: #333333;
+	overflow: hidden;
+	color: #CFCFCF;
+}
+.btn-xs {
+	background-color: #767676;
+	color: white;
+	border-radius: 80px;
+}
+.list1 {
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 @media (min-width: 767px) {
 	.dl {
@@ -72,13 +122,18 @@ header {
 		padding-right: 40px;
 	}
 	.info-container {
-	padding-left: 0px;
-	padding-right: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	.head-image {
-		margin-left: 0;
+		margin-left: 0px;
 	}
 	.clean {
 		width: 100%;
+	}
+	.foot div {
+		width: 20%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
